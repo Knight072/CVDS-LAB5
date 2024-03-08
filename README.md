@@ -28,6 +28,14 @@ RESPUESTAS
           ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/484fe3b6-cd27-43aa-9be2-0ce0c97629a4)
 
     - ¿Qué pasa si no envío el método correcto?
+      - Pretty
+   
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/452e536e-9656-4758-b1d5-3c2899325dc5)
+
+      - Preview
+        
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/ee2c0235-bccb-4f23-a876-85f665e8b93d)
+ 
     - ¿Qué pasa si al body response HTML lo fuerzo a leerse como JSON?
     - ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web?
     - ¿Qué pasa si le envías un body a una solicitud GET?
