@@ -37,6 +37,12 @@ RESPUESTAS
         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/ee2c0235-bccb-4f23-a876-85f665e8b93d)
  
     - ¿Qué pasa si al body response HTML lo fuerzo a leerse como JSON?
+
+      ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/c5bae92e-0be1-4ed8-97b7-1c9367497868)
+
+      ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/add879d0-11f2-4552-9134-43666ca3b7b1)
+
+
     - ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web?
     - ¿Qué pasa si le envías un body a una solicitud GET?
   - PARTE II
