@@ -45,6 +45,9 @@ RESPUESTAS
 
     - ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web?
     - ¿Qué pasa si le envías un body a una solicitud GET?
+
+    Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas telnet     en el puerto 80?.
+  
   - PARTE II
     ¿Qué hace cada uno de los archivos en la aplicación?
     
