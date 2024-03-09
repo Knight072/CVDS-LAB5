@@ -49,7 +49,43 @@ RESPUESTAS
     Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas telnet     en el puerto 80?.
   
   - PARTE II
-    ¿Qué hace cada uno de los archivos en la aplicación?
+    
+      ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/2cfd7132-e970-406b-aae6-131ee2e3211e)
+
+      ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/28eca5b0-946b-48ba-8c14-40ce3c32148d)
+
+      ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/cdd45248-a4ad-4795-b3b7-55ee4085f3e5)
+
+      ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/29df98da-be65-4e26-853a-6f41140ab555)
+
+
+      
+
+    - ¿Qué hace cada uno de los archivos en la aplicación?
+      - package.json
+      - index.html
+      - App.js
+      - KeyPadComponent.js
+      - ResultComponent.js
+      - index.js
+      - styles.css
+    - Después de haber visto los cambios, vuelve a abrir la URL original https://codesandbox.io/s/react-js-simple-calculator-pefmr y sigue los siguientes pasos:
+      - Descargar código en un Zip
+      - Descomprimir el Zip en la carpeta de proyectos de software, (en ciertos PC solo funciona 7-Zip)
+   
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/86f9bcf2-f080-496e-8a0b-b9db3503203a)
+
+      - Abrir una terminal de Git Bash en la carpeta descomprimida
+      - Instalar las dependencias con npm install
+
+          ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/12c0d0ba-a44e-4201-812b-d53a9f71a0a4)
+
+      - Iniciar la aplicación con npm start, en algunos computadores con versiones antiguas de nodejs hay que agregar NODE_OPTIONS=--openssl-legacy-provider npm run start
+
+         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/8f5f2c8b-872d-43cf-a5a1-f82c541fa725)
+
+      - Abrir la ruta http://localhost:3000/ en un navegador web como Firefox o Google Chrome   
+    
     
   - PARTE III
     ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
