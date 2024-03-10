@@ -46,7 +46,11 @@ RESPUESTAS
     - ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web?
     - ¿Qué pasa si le envías un body a una solicitud GET?
 
-    Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas telnet     en el puerto 80?.
+    Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas           telnet en el puerto 80?.
+
+    ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/90d4b5a7-a6f6-476c-ad4d-83ffc320b2dd)
+
+
   
   - PARTE II
     
@@ -81,12 +85,18 @@ RESPUESTAS
           ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/12c0d0ba-a44e-4201-812b-d53a9f71a0a4)
 
       - Iniciar la aplicación con npm start, en algunos computadores con versiones antiguas de nodejs hay que agregar NODE_OPTIONS=--openssl-legacy-provider npm run start
+     
+          ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/7d18b9ac-98ba-43e9-9631-5a5154cf9523)
 
-         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/8f5f2c8b-872d-43cf-a5a1-f82c541fa725)
+
+         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/ad2bd653-e463-4492-a100-9a5f7cc5ad36)
+
 
       - Abrir la ruta http://localhost:3000/ en un navegador web como Firefox o Google Chrome   
-    
-    
+
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/b4a752d7-3cf9-445a-98bc-eb16b3102834)
+
+        Ahora, has el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un              recurso web dinámico o estático?
   - PARTE III
     ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
     ¿Cuáles son las ventajas de usar MVC?
