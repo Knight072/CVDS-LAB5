@@ -113,7 +113,18 @@ RESPUESTAS
         Ahora, has el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un              recurso web dinámico o estático?
   - PARTE III
       - ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
+          - Modelo - Contains los datos de la aplicación. Puede ser un objeto o una colección de objetos.
+          - - Vista - Representa la información proveída por el controlador en un formato en particular.
+          - Controlador - Contines la lógica de una aplicación.
+         
       - ¿Cuáles son las ventajas de usar MVC?
+          - Separate roles - The Spring MVC separates each role, where the model object, controller, command object, view resolver, DispatcherServlet, validator, etc. can be fulfilled               by a specialized object.
+          - Light-weight - It uses light-weight servlet container to develop and deploy your application.
+          - Powerful Configuration - It provides a robust configuration for both framework and application classes that includes easy referencing across contexts, such as from web                   controllers to business objects and validators.
+          - Rapid development - The Spring MVC facilitates fast and parallel development.
+          - Reusable business code - Instead of creating new objects, it allows us to use the existing business objects.
+          - Easy to test - In Spring, generally we create JavaBeans classes that enable you to inject test data using the setter methods.
+          - Flexible Mapping - It provides the specific annotations that easily redirect the page. 
       - ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
       - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
         Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es         un recurso web dinámico o estático?
