@@ -76,12 +76,17 @@ RESPUESTAS
 
     - ¿Qué hace cada uno de los archivos en la aplicación?
       - package.json
+          - Contiene información sobre el proyecto así como metadatos funcionales (número de version, dependencias, etc.). Esta información es legible por el ser                                     humano. Su ubicación natural es en la raíz del proyecto. 
       - index.html
+          - Es la página principal o de inicio de cualquier sitio web. Si alguno de estos archivos está presente en el directorio, el navegador cargará esa página de forma                           predeterminada o, de lo contrario, se mostrará un directorio (índice) de los archivos con enlaces. 
       - App.js
       - KeyPadComponent.js
+          - Se definen las acciones de cada uno de los botones de la calculadora, además, donde se específica el valor de cada botón. 
       - ResultComponent.js
+          - Es el componente que se encarga de devolver el resultado de la operación. 
       - index.js
       - styles.css
+          - Aplica la parte visual de una página web, colores, tamaño de los componentes, entre otros. 
     - Después de haber visto los cambios, vuelve a abrir la URL original https://codesandbox.io/s/react-js-simple-calculator-pefmr y sigue los siguientes pasos:
       - Descargar código en un Zip
       - Descomprimir el Zip en la carpeta de proyectos de software, (en ciertos PC solo funciona 7-Zip)
@@ -107,8 +112,8 @@ RESPUESTAS
 
         Ahora, has el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un              recurso web dinámico o estático?
   - PARTE III
-    ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
-    ¿Cuáles son las ventajas de usar MVC?
-    ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
-    ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
-Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un recurso web dinámico o estático?
+      - ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
+      - ¿Cuáles son las ventajas de usar MVC?
+      - ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
+      - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
+        Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es         un recurso web dinámico o estático?
