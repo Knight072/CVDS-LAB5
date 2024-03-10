@@ -1,7 +1,10 @@
 # CVDS-LAB5
 INTEGRANTES
-  Daniel Felipe Rojas Hernández
-  Esteban Valencia
+
+    Daniel Felipe Rojas Hernández
+  
+    Esteban Valencia
+  
 RESPUESTAS
   - PARTE I 
     - Has un request GET a la URL https://www.escuelaing.edu.co/es/ y verifica el body de respuesta en las opciones Pretty, Raw, Preview.
@@ -28,6 +31,8 @@ RESPUESTAS
           ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/484fe3b6-cd27-43aa-9be2-0ce0c97629a4)
 
     - ¿Qué pasa si no envío el método correcto?
+   
+        Podemos ver que al mandar el método delete, nos envía un documento html en el que se muestra error y que no es posible eliminar la página /todos
       - Pretty
    
         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/452e536e-9656-4758-b1d5-3c2899325dc5)
@@ -38,12 +43,16 @@ RESPUESTAS
  
     - ¿Qué pasa si al body response HTML lo fuerzo a leerse como JSON?
 
+       Como es un documento html el que obtenemos postman no lo va a interpretar como un JSON, por lo que se ve en los colores de las líneas de código en las imágenes
+
       ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/c5bae92e-0be1-4ed8-97b7-1c9367497868)
 
       ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/add879d0-11f2-4552-9134-43666ca3b7b1)
 
 
     - ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web?
+
+      Es debido a que solo obtenemos el HTML, y no la hoja de estilos de CSS, que su apariencia varia bastante  
     - ¿Qué pasa si le envías un body a una solicitud GET?
 
     Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas           telnet en el puerto 80?.
