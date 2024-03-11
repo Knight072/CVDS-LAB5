@@ -128,9 +128,17 @@ RESPUESTAS
       - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
 
         Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es         un recurso web dinámico o estático?
+   
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/b1f3582c-5c2b-4e77-8b10-626f05846ab8)
+
 
         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/5f51cb85-7a39-4b15-ac15-bd5c992e9037)
 
-        Es un recurso estático, dado que, al momento de acceder a la página siempre aparece el mismo mensaje sin importar quien ingrese a la página.  
+        Es un recurso estático, dado que, al momento de acceder a la página siempre aparece el mismo mensaje sin importar quien ingrese a la página.
+
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/b076108b-1907-4455-bc7a-0b110e09fb91)
+
+        Pero, si se modifica su URL, pasándole un nombre cualquiera como parámetro, se puede modificar el mensaje por defecto.
+
 
 
