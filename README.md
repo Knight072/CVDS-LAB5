@@ -112,19 +112,25 @@ RESPUESTAS
 
         Ahora, has el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un              recurso web dinámico o estático?
   - PARTE III
-      - ¿Por qué MVC obtiene ese nombre? (puede apoyarse de https://www.javatpoint.com/spring-mvc-tutorial)
+      - ¿Por qué MVC obtiene ese nombre?
           - Modelo - Contains los datos de la aplicación. Puede ser un objeto o una colección de objetos.
-          - - Vista - Representa la información proveída por el controlador en un formato en particular.
+          - Vista - Representa la información proveída por el controlador en un formato en particular.
           - Controlador - Contines la lógica de una aplicación.
          
       - ¿Cuáles son las ventajas de usar MVC?
-          - Separate roles - The Spring MVC separates each role, where the model object, controller, command object, view resolver, DispatcherServlet, validator, etc. can be fulfilled               by a specialized object.
-          - Light-weight - It uses light-weight servlet container to develop and deploy your application.
-          - Powerful Configuration - It provides a robust configuration for both framework and application classes that includes easy referencing across contexts, such as from web                   controllers to business objects and validators.
-          - Rapid development - The Spring MVC facilitates fast and parallel development.
-          - Reusable business code - Instead of creating new objects, it allows us to use the existing business objects.
-          - Easy to test - In Spring, generally we create JavaBeans classes that enable you to inject test data using the setter methods.
-          - Flexible Mapping - It provides the specific annotations that easily redirect the page. 
+          - Mapeo flexible: proporciona las anotaciones específicas que redirigen fácilmente la página.
+          - Desarrollo rápido: Facilita el desarrollo rápido y paralelo.
+          - Ligero: utiliza un contenedor de servlet liviano para desarrollar e implementar su aplicación.
+          - Código reutilizable: en lugar de crear nuevos objetos, nos permite reutilizar los objetos existentes.
+          - Funciones separadas: Spring MVC separa cada función, donde el objeto modelo, el controlador, el objeto de comando, la resolución de vista, DispatcherServlet, el validador,
+            etc. pueden ser cumplidos por un objeto especializado.
       - ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
       - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
+
         Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es         un recurso web dinámico o estático?
+
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/5f51cb85-7a39-4b15-ac15-bd5c992e9037)
+
+        Es un recurso estático, dado que, al momento de acceder a la página siempre aparece el mismo mensaje sin importar quien ingrese a la página.  
+
+
