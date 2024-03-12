@@ -55,11 +55,14 @@ RESPUESTAS
       Es debido a que solo obtenemos el HTML, y no la hoja de estilos de CSS, que su apariencia varia bastante  
     - ¿Qué pasa si le envías un body a una solicitud GET?
 
+      En las peticiones de tipo GET no se debe enviar un parámetro body, pues el body solamente se debe dejar mandar cuando el tipo de petición es POST.
+      
     Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas           telnet en el puerto 80?.
 
     ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/90d4b5a7-a6f6-476c-ad4d-83ffc320b2dd)
+    
 
-
+    El código de estado 301 típicamente se usa cuando ocurre un cambio del sitio de HTTP a HTTPS. 
   
   - PARTE II
     
@@ -80,11 +83,13 @@ RESPUESTAS
       - index.html
           - Es la página principal o de inicio de cualquier sitio web. Si alguno de estos archivos está presente en el directorio, el navegador cargará esa página de forma                           predeterminada o, de lo contrario, se mostrará un directorio (índice) de los archivos con enlaces. 
       - App.js
+          - Maneja la lógica de los estados de la aplicación, si se presenta un error o si se borra el resultado de la operaciónn. 
       - KeyPadComponent.js
           - Se definen las acciones de cada uno de los botones de la calculadora, además, donde se específica el valor de cada botón. 
       - ResultComponent.js
           - Es el componente que se encarga de devolver el resultado de la operación. 
       - index.js
+          - La clase que inicializa la lógica de la aplicación. 
       - styles.css
           - Aplica la parte visual de una página web, colores, tamaño de los componentes, entre otros. 
     - Después de haber visto los cambios, vuelve a abrir la URL original https://codesandbox.io/s/react-js-simple-calculator-pefmr y sigue los siguientes pasos:
@@ -111,6 +116,15 @@ RESPUESTAS
         ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/b4a752d7-3cf9-445a-98bc-eb16b3102834)
 
         Ahora, has el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un              recurso web dinámico o estático?
+     
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/04ec79ad-378e-4412-a221-fbd294d6bbef)
+
+
+        ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/4d2e9360-e9b8-47d9-8609-b1a6855e6ba1)
+
+
+        La respuesta es igual que el archivo index.html del proyecto, por lo que resulta ser un recurso web estático
+        
   - PARTE III
       - ¿Por qué MVC obtiene ese nombre?
           - Modelo - Contains los datos de la aplicación. Puede ser un objeto o una colección de objetos.
@@ -125,7 +139,10 @@ RESPUESTAS
           - Funciones separadas: Spring MVC separa cada función, donde el objeto modelo, el controlador, el objeto de comando, la resolución de vista, DispatcherServlet, el validador,
             etc. pueden ser cumplidos por un objeto especializado.
       - ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
+          - Se puede diferenciar de forma más clara donde se encuentran los controladores, los archivos html, los test, dado que las anotaciones permiten acceder más fácil y rápido a                estos recursos.
       - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
+          - @ComponentScan: permite correr los controladores que se encuentran en carpetas aparte del método con anotación @SpringBootApplication
+          - @ResponseBody: indica que el tipo de resultado debe escribirse directamente en el cuerpo de la respuesta en cualquier formato que especifique, como JSON o XML.  
 
         Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es         un recurso web dinámico o estático?
    
@@ -140,5 +157,7 @@ RESPUESTAS
 
         Pero, si se modifica su URL, pasándole un nombre cualquiera como parámetro, se puede modificar el mensaje por defecto.
 
-
+- PARTE IV
+    - ¿Qué es RESTful?
+        - La API RESTful es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet.  
 
