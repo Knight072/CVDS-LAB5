@@ -60,7 +60,12 @@ RESPUESTAS
     Has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80. Telnet soporta HTTP y no HTTPS, entonces ¿Qué significa la respuesta 301 cuándo usas           telnet en el puerto 80?.
 
     ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/90d4b5a7-a6f6-476c-ad4d-83ffc320b2dd)
-    
+
+    ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/8c6583cb-deca-41a5-815c-d979446b505f)
+
+    ![image](https://github.com/Knight072/CVDS-LAB5/assets/116401447/a42ff408-7134-4775-a7ac-bec3344be580)
+
+
 
     El código de estado 301 típicamente se usa cuando ocurre un cambio del sitio de HTTP a HTTPS. 
   
